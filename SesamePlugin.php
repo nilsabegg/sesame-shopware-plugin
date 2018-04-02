@@ -1,5 +1,5 @@
 <?php
-namespace Shopware\Sesame;
+namespace SesamePlugin;
 
 use Shopware\Bundle\PluginInstallerBundle\Service\InstallerService;
 use Shopware\Components\Plugin;
@@ -9,16 +9,16 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
  * Class Sesame
- * @package Shopware\Sesame
+ * @package SesamePlugin
  */
-class Sesame extends Plugin
+class SesamePlugin extends Plugin
 {
     /**
      * @param ContainerBuilder $container
      */
     public function build(ContainerBuilder $container)
     {
-        $container->setParameter('sesame.plugin_dir', $this->getPath());
+        $container->setParameter('sesame_plugin.plugin_dir', $this->getPath());
         parent::build($container);
     }
     /**

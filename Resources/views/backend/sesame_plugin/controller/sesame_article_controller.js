@@ -1,5 +1,5 @@
 
-Ext.define('Shopware.apps.Sesame.controller.SesameArticleController', {
+Ext.define('Shopware.apps.SesamePlugin.controller.SesameArticleController', {
     /**
      * Override the customer main controller
      * @string

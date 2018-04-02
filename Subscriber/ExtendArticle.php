@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopware\Sesame\Subscriber;
+namespace SesamePlugin\Subscriber;
 
 use Enlight\Event\SubscriberInterface;
 
@@ -39,7 +39,7 @@ class ExtendCustomer implements SubscriberInterface
         $view->addTemplateDir($this->pluginDirectory . '/Resources/views');
 
         if ($request->getActionName() == 'load') {
-            $view->extendsTemplate('backend/sesame/view/detail/window.js');
+            $view->extendsTemplate('backend/sesame_plugin/view/detail/window.js');
         }
     }
 }

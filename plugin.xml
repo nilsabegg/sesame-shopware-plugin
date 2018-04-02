@@ -8,7 +8,7 @@
     <copyright>(c) by Nils Abegg</copyright>
     <license>MIT</license>
     <link>http://github.com/nilsabegg/sesame-shopware-plugin</link>
-    <author>shopware AG</author>
+    <author>Nils Abegg</author>
     <compatibility minVersion="5.4.1"/>
 
     <changelog version="1.0.0">

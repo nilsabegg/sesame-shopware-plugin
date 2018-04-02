@@ -1,6 +1,6 @@
 // This tab will be shown in the customer module
 
-Ext.define('Shopware.apps.Sesame.view.detail.SesameArticleTab', {
+Ext.define('Shopware.apps.SesamePlugin.view.detail.SesameArticleTab', {
     extend: 'Ext.container.Container',
     padding: 10,
     title: 'Aliexpress.com Article Informations',
