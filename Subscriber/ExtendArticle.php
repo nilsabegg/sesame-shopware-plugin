@@ -43,7 +43,7 @@ class ExtendArticle implements SubscriberInterface
         }
 
         if ($request->getActionName() == 'load') {
-            $view->extendsTemplate('backend/sesame_plugin/view/detail/window.js');
+            //$view->extendsTemplate('backend/sesame_plugin/view/detail/window.js');
         }
     }
 }
