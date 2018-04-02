@@ -28,15 +28,19 @@ class ExtendArticle implements SubscriberInterface
         ];
     }
 
-    public function onCustomerPostDispatch(\Enlight_Event_EventArgs $args)
+    public function onArticlePostDispatch(\Enlight_Event_EventArgs $args)
     {
-        /** @var \Shopware_Controllers_Backend_Article $controller */
+        /** @var \Shopware_Controllers_Backend_Customer $controller */
         $controller = $args->getSubject();
 
         $view = $controller->View();
         $request = $controller->Request();
 
         $view->addTemplateDir($this->pluginDirectory . '/Resources/views');
+
+        if ($request->getActionName() == 'index') {
+            $view->extendsTemplate('backend/sesame_plugin/app.js');
+        }
 
         if ($request->getActionName() == 'load') {
             $view->extendsTemplate('backend/sesame_plugin/view/detail/window.js');
