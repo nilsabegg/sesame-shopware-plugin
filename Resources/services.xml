@@ -3,8 +3,8 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="sesame.subscriber.templates" class="SesamePlugin\Subscriber\ExtendArticle">
-            <argument>%sesame.plugin_dir%</argument>
+        <service id="sesame_plugin.subscriber.templates" class="SesamePlugin\Subscriber\ExtendArticle">
+            <argument>%sesame_plugin.plugin_dir%</argument>
             <tag name="shopware.event_subscriber"/>
         </service>
     </services>

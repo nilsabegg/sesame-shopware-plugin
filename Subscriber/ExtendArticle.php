@@ -4,7 +4,7 @@ namespace SesamePlugin\Subscriber;
 
 use Enlight\Event\SubscriberInterface;
 
-class ExtendCustomer implements SubscriberInterface
+class ExtendArticle implements SubscriberInterface
 {
     /**
      * @var string
