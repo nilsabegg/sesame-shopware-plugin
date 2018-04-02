@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de">Sesame Plugin</label>
+    <label lang="en">Sesame Plugin</label>
+
+    <version>0.1.0</version>
+    <copyright>(c) by Nils Abegg</copyright>
+    <license>MIT</license>
+    <link>http://github.com/nilsabegg/sesame-shopware-plugin</link>
+    <author>shopware AG</author>
+    <compatibility minVersion="5.4.1"/>
+
+    <changelog version="1.0.0">
+        <changes lang="de">Erstveröffentlichung</changes>
+        <changes lang="en">First release</changes>
+    </changelog>
+</plugin>
