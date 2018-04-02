@@ -1,5 +1,3 @@
-// This tab will be shown in the customer module
-
 Ext.define('Shopware.apps.SesamePlugin.view.detail.SesameArticleTab', {
     extend: 'Ext.container.Container',
     padding: 10,
