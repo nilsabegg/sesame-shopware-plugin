@@ -30,7 +30,7 @@ class ExtendArticle implements SubscriberInterface
 
     public function onArticlePostDispatch(\Enlight_Event_EventArgs $args)
     {
-        /** @var \Shopware_Controllers_Backend_Customer $controller */
+        /** @var \Shopware_Controllers_Backend_Article $controller */
         $controller = $args->getSubject();
 
         $view = $controller->View();
